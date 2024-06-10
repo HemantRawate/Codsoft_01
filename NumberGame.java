@@ -9,8 +9,8 @@ public class NumberGame {
         boolean playAgain = true;
 
         while (playAgain) {
-            int num = random.nextInt(100) + 1; // Generate a number between 1 and 100
-            int attempt = 10; // Set the number of attempts
+            int num = random.nextInt(100) + 1; 
+            int attempt = 10; 
             boolean guessNum = false;
             int Score = 0;
 
